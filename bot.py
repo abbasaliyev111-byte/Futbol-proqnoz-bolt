@@ -170,10 +170,13 @@ def predict_match(home_team_id: int, away_team_id: int, home_name: str, away_nam
     }
 
 
+MATCH_SEARCH_DAYS = 45  # fəsil arası dövrlərdə də yaxın matçları tapmaq üçün geniş pəncərə
+
+
 def fetch_league_matches(code: str):
-    """Verilmiş liqa kodunun yaxın 7 gündəki planlaşdırılan matçlarını API-dən çəkir."""
+    """Verilmiş liqa kodunun yaxın MATCH_SEARCH_DAYS gündəki planlaşdırılan matçlarını API-dən çəkir."""
     date_from = datetime.utcnow().strftime("%Y-%m-%d")
-    date_to = (datetime.utcnow() + timedelta(days=7)).strftime("%Y-%m-%d")
+    date_to = (datetime.utcnow() + timedelta(days=MATCH_SEARCH_DAYS)).strftime("%Y-%m-%d")
 
     data = api_get(
         f"/competitions/{code}/matches",
@@ -276,7 +279,10 @@ async def matches(update: Update, context: ContextTypes.DEFAULT_TYPE):
         source_note = "🌐 (canlı sorğu)"
 
     if not match_list:
-        await update.message.reply_text("Bu liqada yaxın 7 gündə planlaşdırılan matç tapılmadı.")
+        await update.message.reply_text(
+            f"Bu liqada yaxın {MATCH_SEARCH_DAYS} gündə planlaşdırılan matç tapılmadı "
+            "(çox güman ki, fəsil hələ başlamayıb)."
+        )
         return
 
     lines = [f"📅 *{LEAGUES[code]} — yaxın matçlar* {source_note}\n"]
