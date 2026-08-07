@@ -12,9 +12,9 @@ Quraşdırma üçün README.md faylına bax.
 
 import os
 import math
+import asyncio
 import logging
-from datetime import datetime, timedelta
-from functools import lru_cache
+from datetime import datetime, timedelta, timezone
 
 import requests
 from dotenv import load_dotenv
@@ -46,6 +46,18 @@ LEAGUES = {
 }
 
 HEADERS = {"X-Auth-Token": FOOTBALL_API_KEY} if FOOTBALL_API_KEY else {}
+
+# ---------- Keş (cache) ----------
+# Bot arxa planda özü liqa matçlarını və proqnozları əvvəlcədən hesablayıb
+# burada saxlayır. İstifadəçi /matches və ya /predict yazanda, əgər keşdə
+# təzə məlumat varsa, birbaşa ordan (ani) cavab verilir — yenidən API-yə
+# sorğu getmir. Bu, həm sürəti artırır, həm də pulsuz API-nin sorğu
+# limitinə çatmamağa kömək edir.
+CACHE = {
+    "matches": {},       # {league_code: {"data": [...], "updated_at": datetime}}
+    "predictions": {},   # {match_id: {"data": {...}, "updated_at": datetime}}
+}
+CACHE_TTL_HOURS = 6  # keş nə qədər müddət "təzə" sayılsın
 
 
 def api_get(endpoint: str, params: dict = None):
@@ -158,6 +170,65 @@ def predict_match(home_team_id: int, away_team_id: int, home_name: str, away_nam
     }
 
 
+def fetch_league_matches(code: str):
+    """Verilmiş liqa kodunun yaxın 7 gündəki planlaşdırılan matçlarını API-dən çəkir."""
+    date_from = datetime.utcnow().strftime("%Y-%m-%d")
+    date_to = (datetime.utcnow() + timedelta(days=7)).strftime("%Y-%m-%d")
+
+    data = api_get(
+        f"/competitions/{code}/matches",
+        params={"dateFrom": date_from, "dateTo": date_to, "status": "SCHEDULED"},
+    )
+    if not data or not data.get("matches"):
+        return []
+    return data["matches"]
+
+
+def is_cache_fresh(entry: dict) -> bool:
+    if not entry or "updated_at" not in entry:
+        return False
+    age = datetime.now(timezone.utc) - entry["updated_at"]
+    return age < timedelta(hours=CACHE_TTL_HOURS)
+
+
+async def refresh_cache_job(context: ContextTypes.DEFAULT_TYPE):
+    """Arxa planda dövri işləyən tapşırıq: bütün liqaların matçlarını və
+    yaxın matçların proqnozlarını əvvəlcədən hesablayıb keşə yazır."""
+    logger.info("Keş yeniləməsi başladı...")
+
+    for code in LEAGUES:
+        try:
+            match_list = await asyncio.to_thread(fetch_league_matches, code)
+            CACHE["matches"][code] = {
+                "data": match_list,
+                "updated_at": datetime.now(timezone.utc),
+            }
+            logger.info(f"{code}: {len(match_list)} matç keşləndi.")
+
+            # Hər liqadan ilk bir neçə matçın proqnozunu da əvvəlcədən hesablayaq
+            for m in match_list[:3]:
+                match_id = m["id"]
+                home_team = m["homeTeam"]
+                away_team = m["awayTeam"]
+                result = await asyncio.to_thread(
+                    predict_match,
+                    home_team["id"], away_team["id"],
+                    home_team["name"], away_team["name"],
+                )
+                if result:
+                    CACHE["predictions"][match_id] = {
+                        "data": result,
+                        "updated_at": datetime.now(timezone.utc),
+                    }
+                await asyncio.sleep(2)  # API limitinə hörmət — sorğular arası kiçik fasilə
+
+            await asyncio.sleep(2)
+        except Exception as e:
+            logger.error(f"{code} üçün keş yeniləmə xətası: {e}")
+
+    logger.info("Keş yeniləməsi bitdi.")
+
+
 # ---------- Telegram bot əmrləri ----------
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -166,6 +237,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "Bu bot statistik model (Poisson) əsasında futbol matçları üçün "
         "*proqnoz ehtimalları* göstərir. Bu, mərc qəbul edən bukmeker botu DEYİL "
         "— yalnız məlumat məqsədi daşıyır.\n\n"
+        "Bot arxa planda özü matçları və proqnozları əvvəlcədən hazırlayır ⚡ "
+        "— bəzən ani cavab görəcəksiniz.\n\n"
         "Əmrlər:\n"
         "/leagues — mövcud liqaların siyahısı\n"
         "/matches <kod> — liqadakı yaxın matçlar (məs: /matches PL)\n"
@@ -193,20 +266,21 @@ async def matches(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text(f"Naməlum liqa kodu. /leagues əmrinə bax.")
         return
 
-    date_from = datetime.utcnow().strftime("%Y-%m-%d")
-    date_to = (datetime.utcnow() + timedelta(days=7)).strftime("%Y-%m-%d")
+    cache_entry = CACHE["matches"].get(code)
+    if is_cache_fresh(cache_entry):
+        match_list = cache_entry["data"]
+        source_note = "⚡ (əvvəlcədən hazırlanmış məlumat)"
+    else:
+        match_list = fetch_league_matches(code)
+        CACHE["matches"][code] = {"data": match_list, "updated_at": datetime.now(timezone.utc)}
+        source_note = "🌐 (canlı sorğu)"
 
-    data = api_get(
-        f"/competitions/{code}/matches",
-        params={"dateFrom": date_from, "dateTo": date_to, "status": "SCHEDULED"},
-    )
-
-    if not data or not data.get("matches"):
+    if not match_list:
         await update.message.reply_text("Bu liqada yaxın 7 gündə planlaşdırılan matç tapılmadı.")
         return
 
-    lines = [f"📅 *{LEAGUES[code]} — yaxın matçlar:*\n"]
-    for m in data["matches"][:10]:
+    lines = [f"📅 *{LEAGUES[code]} — yaxın matçlar* {source_note}\n"]
+    for m in match_list[:10]:
         home = m["homeTeam"]["name"]
         away = m["awayTeam"]["name"]
         date = m["utcDate"][:16].replace("T", " ")
@@ -227,19 +301,27 @@ async def predict(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("Match ID rəqəm olmalıdır.")
         return
 
-    await update.message.reply_text("🔄 Hesablanır, bir az gözləyin...")
+    cache_entry = CACHE["predictions"].get(match_id)
+    if is_cache_fresh(cache_entry):
+        result = cache_entry["data"]
+        source_note = "⚡ (əvvəlcədən hazırlanmış məlumat)"
+    else:
+        await update.message.reply_text("🔄 Hesablanır, bir az gözləyin...")
 
-    match_data = api_get(f"/matches/{match_id}")
-    if not match_data:
-        await update.message.reply_text("Matç tapılmadı və ya API xətası.")
-        return
+        match_data = api_get(f"/matches/{match_id}")
+        if not match_data:
+            await update.message.reply_text("Matç tapılmadı və ya API xətası.")
+            return
 
-    home_team = match_data["homeTeam"]
-    away_team = match_data["awayTeam"]
+        home_team = match_data["homeTeam"]
+        away_team = match_data["awayTeam"]
 
-    result = predict_match(
-        home_team["id"], away_team["id"], home_team["name"], away_team["name"]
-    )
+        result = predict_match(
+            home_team["id"], away_team["id"], home_team["name"], away_team["name"]
+        )
+        if result:
+            CACHE["predictions"][match_id] = {"data": result, "updated_at": datetime.now(timezone.utc)}
+        source_note = "🌐 (canlı hesablama)"
 
     if not result:
         await update.message.reply_text(
@@ -248,7 +330,7 @@ async def predict(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
 
     text = (
-        f"⚽ *{result['home_team']} vs {result['away_team']}*\n\n"
+        f"⚽ *{result['home_team']} vs {result['away_team']}* {source_note}\n\n"
         f"🏠 Ev sahibi qələbəsi: *{result['home_win_pct']}%*\n"
         f"🤝 Heç-heçə: *{result['draw_pct']}%*\n"
         f"✈️ Qonaq qələbəsi: *{result['away_win_pct']}%*\n\n"
@@ -272,6 +354,10 @@ def main():
     app.add_handler(CommandHandler("leagues", leagues))
     app.add_handler(CommandHandler("matches", matches))
     app.add_handler(CommandHandler("predict", predict))
+
+    # Bot işə düşəndən 15 saniyə sonra ilk dəfə, sonra hər 6 saatdan bir
+    # arxa planda özü matçları və proqnozları əvvəlcədən hesablayıb keşləyir.
+    app.job_queue.run_repeating(refresh_cache_job, interval=timedelta(hours=CACHE_TTL_HOURS), first=15)
 
     logger.info("Bot işə düşür...")
     app.run_polling()
