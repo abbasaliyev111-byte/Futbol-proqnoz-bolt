@@ -1,0 +1,30 @@
+name: Daily Football Predictions
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  run-predictions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo-nu cixar
+        uses: actions/checkout@v4
+      - name: Python qurasdir
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Paketleri qurasdir
+        run: pip install requests
+      - name: Config fayli yarat
+        run: |
+          cat > config.py << EOF
+          FOOTBALL_DATA_API_KEY = "${{ secrets.FOOTBALL_DATA_API_KEY }}"
+          TELEGRAM_BOT_TOKEN = "${{ secrets.TELEGRAM_BOT_TOKEN }}"
+          TELEGRAM_CHAT_ID = "${{ secrets.TELEGRAM_CHAT_ID }}"
+          LEAGUES_TO_TRACK = ["premier_league", "la_liga", "bundesliga", "serie_a", "ligue_1"]
+          TOP_N = 5
+          EOF
+      - name: Botu ise sal
+        run: python daily_run.py
