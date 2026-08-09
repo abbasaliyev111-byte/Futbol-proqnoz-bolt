@@ -1,86 +1,77 @@
-# Futbol Proqnoz Telegram Botu
+# Futbol Proqnoz Botu (Poisson Modeli)
 
-Statistik (Poisson modeli) əsasında futbol matçları üçün nəticə ehtimalları göstərən Telegram botu.
+## Bu nədir?
+Komandaların son matçlardakı qol statistikasına əsasən Poisson paylanması ilə
+1X2, Over/Under 2.5 və BTTS ehtimallarını hesablayıb Telegram-a göndərən bot.
 
-**Bu bot mərc qəbul etmir, pul əməliyyatı aparmır** — yalnız açıq statistik məlumat əsasında proqnoz göstərir. Tam leqaldır.
+**Dürüst xəbərdarlıq:** Bu model elmi əsaslıdır, amma futbol nəticələrini
+90% dəqiqliklə (və ya heç 70-80%) proqnozlaşdıra bilməz. 1X2 bazarında
+real dünyada bu tip modellər adətən 50-55% arasında "tutur". Bunu əyləncə,
+analiz və öz mərc qərarlarını daha məlumatlı vermək üçün istifadə et —
+"zəmanətli qazanc aləti" kimi yox.
 
-## Necə işləyir?
-
-1. `football-data.org`-dan komandaların son matçlarındakı qol statistikası çəkilir
-2. Hər komandanın hücum/müdafiə gücü hesablanır
-3. Poisson ehtimal modeli ilə hər hesab kombinasiyasının (0-0, 1-0, 2-1 və s.) ehtimalı hesablanır
-4. Ev qələbəsi / heç-heçə / qonaq qələbəsi faizləri və ən ehtimallı hesab göstərilir
+## Fayllar
+- `predictor.py` — əsas Poisson riyaziyyatı (data mənbəyindən asılı deyil)
+- `data_fetcher.py` — football-data.org API-dən real komanda statistikası çəkir
+- `telegram_sender.py` — nəticələri Telegram bota göndərir
+- `daily_run.py` — hər şeyi birləşdirən əsas script (bunu cron ilə işə salacaqsan)
+- `config.example.py` — açarlarını yazacağın nümunə fayl
 
 ## Quraşdırma addımları
 
-### 1. Telegram Bot Token alın
-- Telegram-da `@BotFather`-ə yazın
-- `/newbot` əmrini göndərin, adını təyin edin
-- Sizə verilən token-i saxlayın (məs: `123456:ABC-DEF...`)
-
-### 2. Football-Data.org API açarı alın (pulsuz)
-- https://www.football-data.org/client/register saytında qeydiyyatdan keçin
-- Pulsuz plan: dəqiqədə 10 sorğu, 12 əsas liqaya çıxış (kifayət qədərdir)
-- E-poçtunuza gələn API açarını saxlayın
-
-### 3. Layihəni quraşdırın
-
+### 1. Python paketlərini quraşdır
 ```bash
-cd football_predict_bot
-python3 -m venv venv
-source venv/bin/activate  # Windows-da: venv\Scripts\activate
-pip install -r requirements.txt
+pip install requests --break-system-packages
 ```
 
-### 4. Mühit dəyişənlərini təyin edin
+### 2. football-data.org açarı al (pulsuz)
+https://www.football-data.org/client/register — qeydiyyatdan keç, emailinə
+API açarı gələcək. Pulsuz tier: dəqiqədə 10 sorğu, əsas Avropa liqaları daxildir.
 
-`.env.example` faylını `.env` adı ilə kopyalayın və öz məlumatlarınızı daxil edin:
+### 3. Telegram bot yarat
+1. Telegram-da @BotFather-ə yaz
+2. `/newbot` yaz, bot üçün ad seç
+3. Sənə verəcəyi tokeni saxla (məs: `123456:ABC-DEF...`)
+4. Öz botunla söhbətə başla (`/start` yaz və ya bir mesaj göndər)
+5. Bu linki brauzerdə aç (TOKEN-i öz tokeninlə əvəz et):
+   `https://api.telegram.org/bot<TOKEN>/getUpdates`
+6. JSON cavabında `"chat":{"id": 123456789}` — bu rəqəm sənin chat_id-din
 
+### 4. Config faylını doldur
 ```bash
-cp .env.example .env
+cp config.example.py config.py
 ```
+Sonra `config.py`-ni aç və 3 açarı + izləmək istədiyin liqaları yaz.
 
-`.env` faylını redaktə edin:
-```
-TELEGRAM_BOT_TOKEN=sizin_token
-FOOTBALL_DATA_API_KEY=sizin_api_acar
-```
-
-### 5. Botu işə salın
-
+### 5. Sınaq üçün əl ilə işə sal
 ```bash
-python3 bot.py
+python3 daily_run.py
+```
+Telegram-a mesajlar gəlməlidir.
+
+### 6. Avtomatlaşdırma (hər gün müəyyən saatda)
+
+**Linux/Mac — cron ilə:**
+```bash
+crontab -e
+```
+Bu sətri əlavə et (məs. hər gün saat 09:00-da işə salmaq üçün):
+```
+0 9 * * * cd /path/to/football-bot && /usr/bin/python3 daily_run.py >> log.txt 2>&1
 ```
 
-Bot işə düşəcək və Telegram-da botunuza yazaraq test edə bilərsiniz.
+**Windows — Task Scheduler ilə:**
+- Task Scheduler aç -> "Create Basic Task" -> gündəlik, saat seç
+- Action: `python3.exe` -> Arguments: `daily_run.py` -> Start in: bot qovluğu
 
-## Bot əmrləri
+**Alternativ (server lazım deyil) — GitHub Actions:**
+Əgər öz kompüterini daim açıq saxlamaq istəmirsənsə, `config.py`-dəki
+məxfi açarları GitHub repo-nun "Secrets" bölməsinə yazıb, GitHub Actions
+ilə cron-scheduled workflow qura bilərik — bunu da istəsən qururuq.
 
-| Əmr | Təsvir |
-|---|---|
-| `/start` | Salamlama və məlumat |
-| `/leagues` | Mövcud liqaların siyahısı |
-| `/matches PL` | Premier Liqada yaxın 7 gündəki matçlar |
-| `/predict 12345` | Verilmiş match ID üçün proqnoz |
-
-## Serverdə davamlı işlətmək
-
-Bot açıq terminalda işləyir — kompüteri bağlasanız dayanar. Davamlı işləməsi üçün:
-
-- **VPS (ucuz seçim):** DigitalOcean, Hetzner və ya oxşar serverlərdə `systemd` service və ya `screen`/`tmux` ilə arxa planda saxlayın
-- **Docker:** İstəsəniz Dockerfile də hazırlaya bilərəm
-- **Pulsuz hosting seçimləri:** Railway.app, Render.com kimi platformalar pulsuz/ucuz tier təklif edir
-
-## Məhdudiyyətlər
-
-- Pulsuz API tier-i dəqiqədə 10 sorğu ilə məhdudlaşır — çox istifadəçi eyni anda çox sorğu göndərərsə gecikmə ola bilər
-- Model sadədir (yalnız son matçların qol ortalaması) — real bukmeker modelləri (xG, zədələr, motivasiya və s. daxil edən) daha mürəkkəbdir
-- Bu, **maliyyə məsləhəti deyil** — istifadəçilərinizə bunu bildirməyi tövsiyə edirik
-
-## Genişləndirmə ideyaları (istəsəniz kömək edə bilərəm)
-
-- Ev/qonaq matçlarını ayrıca hesablamaq (dəqiqlik artırır)
-- xG (expected goals) məlumatı əlavə etmək
-- Zədəli oyunçu məlumatını nəzərə almaq
-- Gündəlik avtomatik proqnoz siyahısı göndərmək (scheduled job)
-- Nəticələri verilənlər bazasında saxlayıb modelin dəqiqliyini izləmək
+## Modeli inkişaf etdirmək
+- Hazırkı model sadəcə "son 5 matç"a baxır — istəsən bunu ev/qonaq ayrı-ayrı
+  (yalnız ev matçları / yalnız qonaq matçları) hesablamağa dəyişə bilərik,
+  bu adətən dəqiqliyi bir az artırır
+- Zədəli/cəzalı oyunçular, head-to-head tarixçə kimi əlavə faktorlar
+  əl ilə əlavə edilə bilər, amma bunlar üçün əlavə API mənbələri lazımdır
