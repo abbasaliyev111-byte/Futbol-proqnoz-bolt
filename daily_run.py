@@ -42,10 +42,20 @@ def confidence_score(prediction: dict) -> float:
 
 
 def collect_all_predictions(client: FootballDataClient) -> list:
-    """Bütün izlənilən liqalardakı bugünkü matçları analiz edib proqnoz siyahısı qaytarır"""
+    """
+    Bütün izlənilən liqalardakı bugünkü matçları analiz edib proqnoz siyahısı qaytarır.
+    MAX_TOTAL_MATCHES ilə məhdudlaşdırılır ki, free-tier rate limit (10 sorğu/dəq)
+    ucbatından iş həddindən artıq uzanmasın (hər matç ~12san çəkir).
+    """
+    MAX_TOTAL_MATCHES = 15  # bunu artırsan, iş daha uzun çəkəcək (15 matç ~ 3 dəqiqə)
     all_predictions = []
+    processed = 0
 
     for league_key in LEAGUES_TO_TRACK:
+        if processed >= MAX_TOTAL_MATCHES:
+            print(f"MAX_TOTAL_MATCHES ({MAX_TOTAL_MATCHES}) limitinə çatdı, dayandırılır.")
+            break
+
         league_code = LEAGUE_CODES[league_key]
         print(f"--- {league_key} ({league_code}) yoxlanılır ---")
 
@@ -60,6 +70,9 @@ def collect_all_predictions(client: FootballDataClient) -> list:
             continue
 
         for m in matches:
+            if processed >= MAX_TOTAL_MATCHES:
+                break
+
             home_id, home_name = m["homeTeam"]["id"], m["homeTeam"]["name"]
             away_id, away_name = m["awayTeam"]["id"], m["awayTeam"]["name"]
 
@@ -76,6 +89,8 @@ def collect_all_predictions(client: FootballDataClient) -> list:
             prediction["league"] = league_key
             prediction["confidence"] = confidence_score(prediction)
             all_predictions.append(prediction)
+            processed += 1
+            print(f"[{processed}/{MAX_TOTAL_MATCHES}] {prediction['match']} analiz olundu")
 
     return all_predictions
 
