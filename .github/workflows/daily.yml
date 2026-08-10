@@ -5,6 +5,9 @@ on:
     - cron: "0 6 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   run-predictions:
     runs-on: ubuntu-latest
@@ -26,5 +29,20 @@ jobs:
           LEAGUES_TO_TRACK = ["brasileirao", "la_liga", "bundesliga", "serie_a", "ligue_1"]
           TOP_N = 5
           EOF
+      - name: Telegram baglantisini test et
+        run: |
+          echo "=== Telegram test ===" > debug_log.txt
+          curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+            -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}" \
+            -d "text=Debug test mesaji" >> debug_log.txt 2>&1
+          echo "" >> debug_log.txt
       - name: Botu ise sal
-        run: python daily_run.py
+        run: python daily_run.py >> debug_log.txt 2>&1
+      - name: Logu commit et
+        if: always()
+        run: |
+          git config user.name "bot-debug"
+          git config user.email "bot@example.com"
+          git add debug_log.txt
+          git commit -m "Debug log" || echo "no changes"
+          git push
