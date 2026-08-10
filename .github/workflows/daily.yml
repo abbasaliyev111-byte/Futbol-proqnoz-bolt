@@ -23,7 +23,7 @@ jobs:
           FOOTBALL_DATA_API_KEY = "${{ secrets.FOOTBALL_DATA_API_KEY }}"
           TELEGRAM_BOT_TOKEN = "${{ secrets.TELEGRAM_BOT_TOKEN }}"
           TELEGRAM_CHAT_ID = "${{ secrets.TELEGRAM_CHAT_ID }}"
-          LEAGUES_TO_TRACK = ["premier_league", "la_liga", "bundesliga", "serie_a", "ligue_1"]
+          LEAGUES_TO_TRACK = ["la_liga", "bundesliga", "serie_a", "ligue_1"]
           TOP_N = 5
           EOF
       - name: Botu ise sal
