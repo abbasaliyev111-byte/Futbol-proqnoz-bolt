@@ -16,6 +16,7 @@ LEAGUE_CODES = {
     "serie_a": "SA",
     "ligue_1": "FL1",
     "champions_league": "CL",
+    "brasileirao": "BSA",  # Braziliya Serie A - yanvar-dekabr, hazırda aktiv
 }
 
 
