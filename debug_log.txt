@@ -1,5 +1,5 @@
 === Telegram test ===
-{"ok":true,"result":{"message_id":74,"from":{"id":8861088126,"is_bot":true,"first_name":"menim_futbol_bot","username":"Menim_futbol_proqnoz_2026_bot"},"chat":{"id":631657137,"first_name":"Abbas","last_name":"Aliyev","type":"private"},"date":1786440874,"text":"Debug test mesaji"}}
+{"ok":true,"result":{"message_id":76,"from":{"id":8861088126,"is_bot":true,"first_name":"menim_futbol_bot","username":"Menim_futbol_proqnoz_2026_bot"},"chat":{"id":631657137,"first_name":"Abbas","last_name":"Aliyev","type":"private"},"date":1786528020,"text":"Debug test mesaji"}}
 --- brasileirao (BSA) yoxlanılır ---
 [1/15] Fluminense FC vs SE Palmeiras analiz olundu
 [2/15] CA Paranaense vs RB Bragantino analiz olundu
