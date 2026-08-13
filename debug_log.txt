@@ -1,5 +1,5 @@
 === Telegram test ===
-{"ok":true,"result":{"message_id":76,"from":{"id":8861088126,"is_bot":true,"first_name":"menim_futbol_bot","username":"Menim_futbol_proqnoz_2026_bot"},"chat":{"id":631657137,"first_name":"Abbas","last_name":"Aliyev","type":"private"},"date":1786528020,"text":"Debug test mesaji"}}
+{"ok":true,"result":{"message_id":78,"from":{"id":8861088126,"is_bot":true,"first_name":"menim_futbol_bot","username":"Menim_futbol_proqnoz_2026_bot"},"chat":{"id":631657137,"first_name":"Abbas","last_name":"Aliyev","type":"private"},"date":1786614416,"text":"Debug test mesaji"}}
 --- brasileirao (BSA) yoxlanılır ---
 [1/15] Fluminense FC vs SE Palmeiras analiz olundu
 [2/15] CA Paranaense vs RB Bragantino analiz olundu
@@ -20,15 +20,15 @@ MAX_TOTAL_MATCHES (15) limitinə çatdı, dayandırılır.
 📅 <b>Günün Top 5 Seçimi</b>
 <i>(Statistik modelin ən yüksək ehtimal verdiyi matçlar — zəmanət deyil, ehtimaldır)</i>
 
-<b>1. Mirassol FC vs CR Flamengo</b> [brasileirao]
-   👉 Qonaq qalib (84.5%)
-   Gözlənilən qol: 0.37-2.57 | Ən ehtimallı skor: 0-2
-   O/U 2.5: 54.6%/43.8% | BTTS: 27.9%/70.5%
+<b>1. SE Palmeiras vs CR Vasco da Gama</b> [brasileirao]
+   👉 Ev sahibi qalib (76.7%)
+   Gözlənilən qol: 1.66-0.13 | Ən ehtimallı skor: 1-0
+   O/U 2.5: 26.5%/73.3% | BTTS: 10.1%/89.8%
 
-<b>2. SE Palmeiras vs CR Vasco da Gama</b> [brasileirao]
-   👉 Ev sahibi qalib (77.7%)
-   Gözlənilən qol: 1.66-0.1 | Ən ehtimallı skor: 1-0
-   O/U 2.5: 25.6%/74.2% | BTTS: 7.7%/92.2%
+<b>2. Mirassol FC vs CR Flamengo</b> [brasileirao]
+   👉 Qonaq qalib (73.4%)
+   Gözlənilən qol: 0.55-2.1 | Ən ehtimallı skor: 0-2
+   O/U 2.5: 48.9%/50.5% | BTTS: 37.0%/62.4%
 
 <b>3. Chapecoense AF vs EC Bahia</b> [brasileirao]
    👉 Qonaq qalib (70.8%)
