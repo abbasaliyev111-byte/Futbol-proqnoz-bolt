@@ -1,5 +1,5 @@
 === Telegram test ===
-{"ok":true,"result":{"message_id":78,"from":{"id":8861088126,"is_bot":true,"first_name":"menim_futbol_bot","username":"Menim_futbol_proqnoz_2026_bot"},"chat":{"id":631657137,"first_name":"Abbas","last_name":"Aliyev","type":"private"},"date":1786614416,"text":"Debug test mesaji"}}
+{"ok":true,"result":{"message_id":80,"from":{"id":8861088126,"is_bot":true,"first_name":"menim_futbol_bot","username":"Menim_futbol_proqnoz_2026_bot"},"chat":{"id":631657137,"first_name":"Abbas","last_name":"Aliyev","type":"private"},"date":1786700485,"text":"Debug test mesaji"}}
 --- brasileirao (BSA) yoxlanılır ---
 [1/15] Fluminense FC vs SE Palmeiras analiz olundu
 [2/15] CA Paranaense vs RB Bragantino analiz olundu
@@ -26,9 +26,9 @@ MAX_TOTAL_MATCHES (15) limitinə çatdı, dayandırılır.
    O/U 2.5: 26.5%/73.3% | BTTS: 10.1%/89.8%
 
 <b>2. Mirassol FC vs CR Flamengo</b> [brasileirao]
-   👉 Qonaq qalib (73.4%)
-   Gözlənilən qol: 0.55-2.1 | Ən ehtimallı skor: 0-2
-   O/U 2.5: 48.9%/50.5% | BTTS: 37.0%/62.4%
+   👉 Qonaq qalib (71.1%)
+   Gözlənilən qol: 0.64-2.1 | Ən ehtimallı skor: 0-2
+   O/U 2.5: 51.1%/48.3% | BTTS: 41.4%/58.0%
 
 <b>3. Chapecoense AF vs EC Bahia</b> [brasileirao]
    👉 Qonaq qalib (70.8%)
