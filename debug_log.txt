@@ -1,39 +1,39 @@
 === Telegram test ===
-{"ok":true,"result":{"message_id":82,"from":{"id":8861088126,"is_bot":true,"first_name":"menim_futbol_bot","username":"Menim_futbol_proqnoz_2026_bot"},"chat":{"id":631657137,"first_name":"Abbas","last_name":"Aliyev","type":"private"},"date":1786778345,"text":"Debug test mesaji"}}
+{"ok":true,"result":{"message_id":84,"from":{"id":8861088126,"is_bot":true,"first_name":"menim_futbol_bot","username":"Menim_futbol_proqnoz_2026_bot"},"chat":{"id":631657137,"first_name":"Abbas","last_name":"Aliyev","type":"private"},"date":1786866260,"text":"Debug test mesaji"}}
 --- brasileirao (BSA) yoxlanılır ---
-[1/15] Fluminense FC vs SE Palmeiras analiz olundu
-[2/15] CA Paranaense vs RB Bragantino analiz olundu
-[3/15] São Paulo FC vs Coritiba FBC analiz olundu
-[4/15] Chapecoense AF vs EC Bahia analiz olundu
-[5/15] CA Mineiro vs Grêmio FBPA analiz olundu
-[6/15] CR Vasco da Gama vs Santos FC analiz olundu
-[7/15] Mirassol FC vs CR Flamengo analiz olundu
-[8/15] EC Vitória vs Botafogo FR analiz olundu
-[9/15] SC Corinthians Paulista vs Cruzeiro EC analiz olundu
-[10/15] SC Internacional vs Clube do Remo analiz olundu
-[11/15] Fluminense FC vs Clube do Remo analiz olundu
-[12/15] SC Internacional vs CA Mineiro analiz olundu
-[13/15] Cruzeiro EC vs CR Flamengo analiz olundu
-[14/15] RB Bragantino vs Grêmio FBPA analiz olundu
-[15/15] SE Palmeiras vs CR Vasco da Gama analiz olundu
+[1/15] Chapecoense AF vs EC Bahia analiz olundu
+[2/15] CA Mineiro vs Grêmio FBPA analiz olundu
+[3/15] CR Vasco da Gama vs Santos FC analiz olundu
+[4/15] Mirassol FC vs CR Flamengo analiz olundu
+[5/15] EC Vitória vs Botafogo FR analiz olundu
+[6/15] SC Corinthians Paulista vs Cruzeiro EC analiz olundu
+[7/15] SC Internacional vs Clube do Remo analiz olundu
+[8/15] Fluminense FC vs Clube do Remo analiz olundu
+[9/15] SC Internacional vs CA Mineiro analiz olundu
+[10/15] Cruzeiro EC vs CR Flamengo analiz olundu
+[11/15] RB Bragantino vs Grêmio FBPA analiz olundu
+[12/15] SE Palmeiras vs CR Vasco da Gama analiz olundu
+[13/15] EC Vitória vs EC Bahia analiz olundu
+[14/15] Chapecoense AF vs São Paulo FC analiz olundu
+[15/15] Santos FC vs Mirassol FC analiz olundu
 MAX_TOTAL_MATCHES (15) limitinə çatdı, dayandırılır.
 📅 <b>Günün Top 5 Seçimi</b>
 <i>(Statistik modelin ən yüksək ehtimal verdiyi matçlar — zəmanət deyil, ehtimaldır)</i>
 
-<b>1. SE Palmeiras vs CR Vasco da Gama</b> [brasileirao]
-   👉 Ev sahibi qalib (76.7%)
-   Gözlənilən qol: 1.66-0.13 | Ən ehtimallı skor: 1-0
-   O/U 2.5: 26.5%/73.3% | BTTS: 10.1%/89.8%
-
-<b>2. Mirassol FC vs CR Flamengo</b> [brasileirao]
+<b>1. Mirassol FC vs CR Flamengo</b> [brasileirao]
    👉 Qonaq qalib (71.1%)
    Gözlənilən qol: 0.64-2.1 | Ən ehtimallı skor: 0-2
    O/U 2.5: 51.1%/48.3% | BTTS: 41.4%/58.0%
 
-<b>3. Chapecoense AF vs EC Bahia</b> [brasileirao]
+<b>2. Chapecoense AF vs EC Bahia</b> [brasileirao]
    👉 Qonaq qalib (70.8%)
    Gözlənilən qol: 0.18-1.47 | Ən ehtimallı skor: 0-1
    O/U 2.5: 22.9%/77.0% | BTTS: 12.9%/87.0%
+
+<b>3. SE Palmeiras vs CR Vasco da Gama</b> [brasileirao]
+   👉 Ev sahibi qalib (70.5%)
+   Gözlənilən qol: 1.47-0.2 | Ən ehtimallı skor: 1-0
+   O/U 2.5: 23.5%/76.5% | BTTS: 14.0%/86.0%
 
 <b>4. CR Vasco da Gama vs Santos FC</b> [brasileirao]
    👉 Qonaq qalib (70.2%)
