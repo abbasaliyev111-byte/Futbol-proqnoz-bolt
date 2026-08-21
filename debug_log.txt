@@ -1,5 +1,5 @@
 === Telegram test ===
-{"ok":true,"result":{"message_id":92,"from":{"id":8861088126,"is_bot":true,"first_name":"menim_futbol_bot","username":"Menim_futbol_proqnoz_2026_bot"},"chat":{"id":631657137,"first_name":"Abbas","last_name":"Aliyev","type":"private"},"date":1787213001,"text":"Debug test mesaji"}}
+{"ok":true,"result":{"message_id":94,"from":{"id":8861088126,"is_bot":true,"first_name":"menim_futbol_bot","username":"Menim_futbol_proqnoz_2026_bot"},"chat":{"id":631657137,"first_name":"Abbas","last_name":"Aliyev","type":"private"},"date":1787299437,"text":"Debug test mesaji"}}
 --- brasileirao (BSA) yoxlanılır ---
 [1/15] Fluminense FC vs Clube do Remo analiz olundu
 [2/15] SC Internacional vs CA Mineiro analiz olundu
@@ -41,9 +41,9 @@ MAX_TOTAL_MATCHES (15) limitinə çatdı, dayandırılır.
    O/U 2.5: 21.7%/78.2% | BTTS: 9.6%/90.3%
 
 <b>5. Santos FC vs Mirassol FC</b> [brasileirao]
-   👉 Ev sahibi qalib (69.3%)
-   Gözlənilən qol: 3.04-1.4 | Ən ehtimallı skor: 3-1
-   O/U 2.5: 78.3%/18.1% | BTTS: 69.0%/27.4%
+   👉 Ev sahibi qalib (70.1%)
+   Gözlənilən qol: 2.76-1.17 | Ən ehtimallı skor: 2-1
+   O/U 2.5: 72.8%/24.9% | BTTS: 62.9%/34.8%
 
 ⚠️ Heç bir proqnoz 100% deyil. Məsuliyyətli oyna.
 ✅ 5 seçim Telegram-a göndərildi.
