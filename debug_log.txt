@@ -1,5 +1,5 @@
 === Telegram test ===
-{"ok":true,"result":{"message_id":94,"from":{"id":8861088126,"is_bot":true,"first_name":"menim_futbol_bot","username":"Menim_futbol_proqnoz_2026_bot"},"chat":{"id":631657137,"first_name":"Abbas","last_name":"Aliyev","type":"private"},"date":1787299437,"text":"Debug test mesaji"}}
+{"ok":true,"result":{"message_id":96,"from":{"id":8861088126,"is_bot":true,"first_name":"menim_futbol_bot","username":"Menim_futbol_proqnoz_2026_bot"},"chat":{"id":631657137,"first_name":"Abbas","last_name":"Aliyev","type":"private"},"date":1787384744,"text":"Debug test mesaji"}}
 --- brasileirao (BSA) yoxlanılır ---
 [1/15] Fluminense FC vs Clube do Remo analiz olundu
 [2/15] SC Internacional vs CA Mineiro analiz olundu
