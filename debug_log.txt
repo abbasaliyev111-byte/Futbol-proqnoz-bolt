@@ -1,49 +1,49 @@
 === Telegram test ===
-{"ok":true,"result":{"message_id":98,"from":{"id":8861088126,"is_bot":true,"first_name":"menim_futbol_bot","username":"Menim_futbol_proqnoz_2026_bot"},"chat":{"id":631657137,"first_name":"Abbas","last_name":"Aliyev","type":"private"},"date":1787471255,"text":"Debug test mesaji"}}
+{"ok":true,"result":{"message_id":100,"from":{"id":8861088126,"is_bot":true,"first_name":"menim_futbol_bot","username":"Menim_futbol_proqnoz_2026_bot"},"chat":{"id":631657137,"first_name":"Abbas","last_name":"Aliyev","type":"private"},"date":1787559986,"text":"Debug test mesaji"}}
 --- brasileirao (BSA) yoxlanılır ---
-[1/15] RB Bragantino vs Grêmio FBPA analiz olundu
-[2/15] SE Palmeiras vs CR Vasco da Gama analiz olundu
-[3/15] EC Vitória vs EC Bahia analiz olundu
-[4/15] Chapecoense AF vs São Paulo FC analiz olundu
-[5/15] Santos FC vs Mirassol FC analiz olundu
-[6/15] Coritiba FBC vs SC Corinthians Paulista analiz olundu
-[7/15] Botafogo FR vs CA Paranaense analiz olundu
-[8/15] CA Mineiro vs EC Vitória analiz olundu
-[9/15] São Paulo FC vs RB Bragantino analiz olundu
-[10/15] CR Vasco da Gama vs Cruzeiro EC analiz olundu
-[11/15] CA Paranaense vs Fluminense FC analiz olundu
-[12/15] SC Corinthians Paulista vs Santos FC analiz olundu
-[13/15] CR Flamengo vs Botafogo FR analiz olundu
-[14/15] Grêmio FBPA vs Chapecoense AF analiz olundu
-[15/15] Mirassol FC vs SE Palmeiras analiz olundu
+[1/15] Botafogo FR vs CA Paranaense analiz olundu
+[2/15] CA Mineiro vs EC Vitória analiz olundu
+[3/15] São Paulo FC vs RB Bragantino analiz olundu
+[4/15] CR Vasco da Gama vs Cruzeiro EC analiz olundu
+[5/15] CA Paranaense vs Fluminense FC analiz olundu
+[6/15] SC Corinthians Paulista vs Santos FC analiz olundu
+[7/15] CR Flamengo vs Botafogo FR analiz olundu
+[8/15] Grêmio FBPA vs Chapecoense AF analiz olundu
+[9/15] Mirassol FC vs SE Palmeiras analiz olundu
+[10/15] EC Bahia vs SC Internacional analiz olundu
+[11/15] Clube do Remo vs Coritiba FBC analiz olundu
+[12/15] RB Bragantino vs EC Bahia analiz olundu
+[13/15] São Paulo FC vs CA Mineiro analiz olundu
+[14/15] Fluminense FC vs CR Vasco da Gama analiz olundu
+[15/15] Coritiba FBC vs Mirassol FC analiz olundu
 MAX_TOTAL_MATCHES (15) limitinə çatdı, dayandırılır.
 📅 <b>Günün Top 5 Seçimi</b>
 <i>(Statistik modelin ən yüksək ehtimal verdiyi matçlar — zəmanət deyil, ehtimaldır)</i>
 
 <b>1. CA Mineiro vs EC Vitória</b> [brasileirao]
-   👉 Ev sahibi qalib (82.2%)
-   Gözlənilən qol: 1.96-0.13 | Ən ehtimallı skor: 1-0
-   O/U 2.5: 34.5%/65.1% | BTTS: 10.7%/88.9%
+   👉 Ev sahibi qalib (88.4%)
+   Gözlənilən qol: 2.45-0.13 | Ən ehtimallı skor: 2-0
+   O/U 2.5: 46.5%/52.2% | BTTS: 11.2%/87.5%
 
-<b>2. Mirassol FC vs SE Palmeiras</b> [brasileirao]
+<b>2. Fluminense FC vs CR Vasco da Gama</b> [brasileirao]
+   👉 Ev sahibi qalib (87.2%)
+   Gözlənilən qol: 3.31-0.6 | Ən ehtimallı skor: 3-0
+   O/U 2.5: 69.7%/25.1% | BTTS: 41.1%/53.7%
+
+<b>3. CR Vasco da Gama vs Cruzeiro EC</b> [brasileirao]
+   👉 Qonaq qalib (86.0%)
+   Gözlənilən qol: 0.37-2.7 | Ən ehtimallı skor: 0-2
+   O/U 2.5: 57.1%/40.8% | BTTS: 28.1%/69.9%
+
+<b>4. Mirassol FC vs SE Palmeiras</b> [brasileirao]
    👉 Qonaq qalib (80.5%)
    Gözlənilən qol: 0.61-2.67 | Ən ehtimallı skor: 0-2
    O/U 2.5: 61.7%/36.3% | BTTS: 41.8%/56.3%
 
-<b>3. CR Vasco da Gama vs Cruzeiro EC</b> [brasileirao]
-   👉 Qonaq qalib (78.0%)
-   Gözlənilən qol: 0.18-1.8 | Ən ehtimallı skor: 0-1
-   O/U 2.5: 31.6%/68.1% | BTTS: 14.0%/85.8%
-
-<b>4. SE Palmeiras vs CR Vasco da Gama</b> [brasileirao]
-   👉 Ev sahibi qalib (72.6%)
-   Gözlənilən qol: 1.47-0.13 | Ən ehtimallı skor: 1-0
-   O/U 2.5: 21.7%/78.2% | BTTS: 9.6%/90.3%
-
-<b>5. Santos FC vs Mirassol FC</b> [brasileirao]
-   👉 Ev sahibi qalib (70.1%)
-   Gözlənilən qol: 2.76-1.17 | Ən ehtimallı skor: 2-1
-   O/U 2.5: 72.8%/24.9% | BTTS: 62.9%/34.8%
+<b>5. São Paulo FC vs CA Mineiro</b> [brasileirao]
+   👉 Qonaq qalib (70.7%)
+   Gözlənilən qol: 0.49-1.87 | Ən ehtimallı skor: 0-1
+   O/U 2.5: 41.6%/58.1% | BTTS: 32.7%/67.0%
 
 ⚠️ Heç bir proqnoz 100% deyil. Məsuliyyətli oyna.
 ✅ 5 seçim Telegram-a göndərildi.
