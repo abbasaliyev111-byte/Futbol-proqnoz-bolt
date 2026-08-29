@@ -1,5 +1,5 @@
 === Telegram test ===
-{"ok":true,"result":{"message_id":106,"from":{"id":8861088126,"is_bot":true,"first_name":"menim_futbol_bot","username":"Menim_futbol_proqnoz_2026_bot"},"chat":{"id":631657137,"first_name":"Abbas","last_name":"Aliyev","type":"private"},"date":1787952504,"text":"Debug test mesaji"}}
+{"ok":true,"result":{"message_id":108,"from":{"id":8861088126,"is_bot":true,"first_name":"menim_futbol_bot","username":"Menim_futbol_proqnoz_2026_bot"},"chat":{"id":631657137,"first_name":"Abbas","last_name":"Aliyev","type":"private"},"date":1787983460,"text":"Debug test mesaji"}}
 --- brasileirao (BSA) yoxlanılır ---
 [1/15] CA Mineiro vs EC Vitória analiz olundu
 [2/15] São Paulo FC vs RB Bragantino analiz olundu
@@ -8,21 +8,14 @@
 [5/15] SC Corinthians Paulista vs Santos FC analiz olundu
 [6/15] CR Flamengo vs Botafogo FR analiz olundu
 [7/15] Grêmio FBPA vs Chapecoense AF analiz olundu
-Statistika xətası (Mirassol FC vs SE Palmeiras): HTTPSConnectionPool(host='api.football-data.org', port=443): Max retries exceeded with url: /v4/teams/1769/matches?status=FINISHED&limit=5 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))
-Statistika xətası (EC Bahia vs SC Internacional): HTTPSConnectionPool(host='api.football-data.org', port=443): Max retries exceeded with url: /v4/teams/1777/matches?status=FINISHED&limit=5 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))
-Statistika xətası (Clube do Remo vs Coritiba FBC): HTTPSConnectionPool(host='api.football-data.org', port=443): Max retries exceeded with url: /v4/teams/4287/matches?status=FINISHED&limit=5 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))
-Statistika xətası (CR Flamengo vs Mirassol FC): HTTPSConnectionPool(host='api.football-data.org', port=443): Max retries exceeded with url: /v4/teams/1783/matches?status=FINISHED&limit=5 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))
-Statistika xətası (RB Bragantino vs EC Bahia): HTTPSConnectionPool(host='api.football-data.org', port=443): Max retries exceeded with url: /v4/teams/4286/matches?status=FINISHED&limit=5 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))
-Statistika xətası (São Paulo FC vs CA Mineiro): HTTPSConnectionPool(host='api.football-data.org', port=443): Max retries exceeded with url: /v4/teams/1776/matches?status=FINISHED&limit=5 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))
-Statistika xətası (Fluminense FC vs CR Vasco da Gama): HTTPSConnectionPool(host='api.football-data.org', port=443): Max retries exceeded with url: /v4/teams/1765/matches?status=FINISHED&limit=5 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))
-[8/15] Coritiba FBC vs Mirassol FC analiz olundu
-[9/15] Cruzeiro EC vs CA Paranaense analiz olundu
-[10/15] SC Internacional vs Santos FC analiz olundu
-[11/15] Clube do Remo vs CR Flamengo analiz olundu
-[12/15] Botafogo FR vs SE Palmeiras analiz olundu
-[13/15] SC Corinthians Paulista vs Chapecoense AF analiz olundu
-[14/15] EC Vitória vs Grêmio FBPA analiz olundu
-[15/15] SE Palmeiras vs São Paulo FC analiz olundu
+[8/15] Mirassol FC vs SE Palmeiras analiz olundu
+[9/15] EC Bahia vs SC Internacional analiz olundu
+[10/15] Clube do Remo vs Coritiba FBC analiz olundu
+[11/15] CR Flamengo vs Mirassol FC analiz olundu
+[12/15] RB Bragantino vs EC Bahia analiz olundu
+[13/15] São Paulo FC vs CA Mineiro analiz olundu
+[14/15] Fluminense FC vs CR Vasco da Gama analiz olundu
+[15/15] Coritiba FBC vs Mirassol FC analiz olundu
 MAX_TOTAL_MATCHES (15) limitinə çatdı, dayandırılır.
 📅 <b>Günün Top 5 Seçimi</b>
 <i>(Statistik modelin ən yüksək ehtimal verdiyi matçlar — zəmanət deyil, ehtimaldır)</i>
@@ -32,25 +25,25 @@ MAX_TOTAL_MATCHES (15) limitinə çatdı, dayandırılır.
    Gözlənilən qol: 2.45-0.13 | Ən ehtimallı skor: 2-0
    O/U 2.5: 46.5%/52.2% | BTTS: 11.2%/87.5%
 
-<b>2. CR Vasco da Gama vs Cruzeiro EC</b> [brasileirao]
+<b>2. Fluminense FC vs CR Vasco da Gama</b> [brasileirao]
+   👉 Ev sahibi qalib (87.2%)
+   Gözlənilən qol: 3.31-0.6 | Ən ehtimallı skor: 3-0
+   O/U 2.5: 69.7%/25.1% | BTTS: 41.1%/53.7%
+
+<b>3. CR Flamengo vs Mirassol FC</b> [brasileirao]
+   👉 Ev sahibi qalib (86.6%)
+   Gözlənilən qol: 3.37-0.67 | Ən ehtimallı skor: 3-0
+   O/U 2.5: 71.2%/23.2% | BTTS: 44.3%/50.1%
+
+<b>4. CR Vasco da Gama vs Cruzeiro EC</b> [brasileirao]
    👉 Qonaq qalib (86.0%)
    Gözlənilən qol: 0.37-2.7 | Ən ehtimallı skor: 0-2
    O/U 2.5: 57.1%/40.8% | BTTS: 28.1%/69.9%
 
-<b>3. Clube do Remo vs CR Flamengo</b> [brasileirao]
-   👉 Qonaq qalib (69.1%)
-   Gözlənilən qol: 1.07-2.57 | Ən ehtimallı skor: 1-2
-   O/U 2.5: 68.8%/29.6% | BTTS: 59.7%/38.7%
-
-<b>4. EC Vitória vs Grêmio FBPA</b> [brasileirao]
-   👉 Qonaq qalib (65.4%)
-   Gözlənilən qol: 0.25-1.33 | Ən ehtimallı skor: 0-1
-   O/U 2.5: 21.1%/78.9% | BTTS: 16.0%/83.9%
-
-<b>5. SE Palmeiras vs São Paulo FC</b> [brasileirao]
-   👉 Ev sahibi qalib (62.7%)
-   Gözlənilən qol: 1.72-0.67 | Ən ehtimallı skor: 1-0
-   O/U 2.5: 42.4%/57.4% | BTTS: 39.8%/60.0%
+<b>5. Mirassol FC vs SE Palmeiras</b> [brasileirao]
+   👉 Qonaq qalib (80.5%)
+   Gözlənilən qol: 0.61-2.67 | Ən ehtimallı skor: 0-2
+   O/U 2.5: 61.7%/36.3% | BTTS: 41.8%/56.3%
 
 ⚠️ Heç bir proqnoz 100% deyil. Məsuliyyətli oyna.
 ✅ 5 seçim Telegram-a göndərildi.
