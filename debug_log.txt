@@ -1,49 +1,49 @@
 === Telegram test ===
-{"ok":true,"result":{"message_id":110,"from":{"id":8861088126,"is_bot":true,"first_name":"menim_futbol_bot","username":"Menim_futbol_proqnoz_2026_bot"},"chat":{"id":631657137,"first_name":"Abbas","last_name":"Aliyev","type":"private"},"date":1788069869,"text":"Debug test mesaji"}}
+{"ok":true,"result":{"message_id":112,"from":{"id":8861088126,"is_bot":true,"first_name":"menim_futbol_bot","username":"Menim_futbol_proqnoz_2026_bot"},"chat":{"id":631657137,"first_name":"Abbas","last_name":"Aliyev","type":"private"},"date":1788156296,"text":"Debug test mesaji"}}
 --- brasileirao (BSA) yoxlanılır ---
-[1/15] CA Paranaense vs Fluminense FC analiz olundu
-[2/15] SC Corinthians Paulista vs Santos FC analiz olundu
-[3/15] CR Flamengo vs Botafogo FR analiz olundu
-[4/15] Grêmio FBPA vs Chapecoense AF analiz olundu
-[5/15] Mirassol FC vs SE Palmeiras analiz olundu
-[6/15] EC Bahia vs SC Internacional analiz olundu
-[7/15] Clube do Remo vs Coritiba FBC analiz olundu
-[8/15] CR Flamengo vs Mirassol FC analiz olundu
-[9/15] RB Bragantino vs EC Bahia analiz olundu
-[10/15] São Paulo FC vs CA Mineiro analiz olundu
-[11/15] Fluminense FC vs CR Vasco da Gama analiz olundu
-[12/15] Coritiba FBC vs Mirassol FC analiz olundu
-[13/15] Cruzeiro EC vs CA Paranaense analiz olundu
-[14/15] SC Internacional vs Santos FC analiz olundu
-[15/15] Clube do Remo vs CR Flamengo analiz olundu
+[1/15] Grêmio FBPA vs Chapecoense AF analiz olundu
+[2/15] Mirassol FC vs SE Palmeiras analiz olundu
+[3/15] Clube do Remo vs Coritiba FBC analiz olundu
+[4/15] CR Flamengo vs Mirassol FC analiz olundu
+[5/15] RB Bragantino vs EC Bahia analiz olundu
+[6/15] São Paulo FC vs CA Mineiro analiz olundu
+[7/15] Fluminense FC vs CR Vasco da Gama analiz olundu
+[8/15] Coritiba FBC vs Mirassol FC analiz olundu
+[9/15] Cruzeiro EC vs CA Paranaense analiz olundu
+[10/15] SC Internacional vs Santos FC analiz olundu
+[11/15] Clube do Remo vs CR Flamengo analiz olundu
+[12/15] Botafogo FR vs SE Palmeiras analiz olundu
+[13/15] SC Corinthians Paulista vs Chapecoense AF analiz olundu
+[14/15] EC Vitória vs Grêmio FBPA analiz olundu
+[15/15] SE Palmeiras vs São Paulo FC analiz olundu
 MAX_TOTAL_MATCHES (15) limitinə çatdı, dayandırılır.
 📅 <b>Günün Top 5 Seçimi</b>
 <i>(Statistik modelin ən yüksək ehtimal verdiyi matçlar — zəmanət deyil, ehtimaldır)</i>
 
 <b>1. CR Flamengo vs Mirassol FC</b> [brasileirao]
-   👉 Ev sahibi qalib (86.6%)
-   Gözlənilən qol: 3.37-0.67 | Ən ehtimallı skor: 3-0
-   O/U 2.5: 71.2%/23.2% | BTTS: 44.3%/50.1%
+   👉 Ev sahibi qalib (82.6%)
+   Gözlənilən qol: 2.94-0.67 | Ən ehtimallı skor: 2-0
+   O/U 2.5: 66.8%/30.1% | BTTS: 44.6%/52.3%
 
-<b>2. Mirassol FC vs SE Palmeiras</b> [brasileirao]
-   👉 Qonaq qalib (80.5%)
-   Gözlənilən qol: 0.61-2.67 | Ən ehtimallı skor: 0-2
-   O/U 2.5: 61.7%/36.3% | BTTS: 41.8%/56.3%
+<b>2. EC Vitória vs Grêmio FBPA</b> [brasileirao]
+   👉 Qonaq qalib (74.8%)
+   Gözlənilən qol: 0.43-2.0 | Ən ehtimallı skor: 0-1
+   O/U 2.5: 43.3%/56.2% | BTTS: 30.0%/69.5%
 
-<b>3. Cruzeiro EC vs CA Paranaense</b> [brasileirao]
-   👉 Qonaq qalib (71.7%)
-   Gözlənilən qol: 0.64-2.13 | Ən ehtimallı skor: 0-2
-   O/U 2.5: 51.9%/47.5% | BTTS: 41.6%/57.8%
+<b>3. Mirassol FC vs SE Palmeiras</b> [brasileirao]
+   👉 Qonaq qalib (74.0%)
+   Gözlənilən qol: 0.74-2.4 | Ən ehtimallı skor: 0-2
+   O/U 2.5: 59.5%/39.3% | BTTS: 46.8%/52.1%
 
-<b>4. Fluminense FC vs CR Vasco da Gama</b> [brasileirao]
-   👉 Ev sahibi qalib (71.0%)
-   Gözlənilən qol: 3.31-1.5 | Ən ehtimallı skor: 3-1
-   O/U 2.5: 80.6%/14.1% | BTTS: 70.8%/24.0%
+<b>4. Botafogo FR vs SE Palmeiras</b> [brasileirao]
+   👉 Qonaq qalib (74.0%)
+   Gözlənilən qol: 0.74-2.4 | Ən ehtimallı skor: 0-2
+   O/U 2.5: 59.5%/39.3% | BTTS: 46.8%/52.1%
 
 <b>5. Clube do Remo vs CR Flamengo</b> [brasileirao]
-   👉 Qonaq qalib (69.1%)
-   Gözlənilən qol: 1.07-2.57 | Ən ehtimallı skor: 1-2
-   O/U 2.5: 68.8%/29.6% | BTTS: 59.7%/38.7%
+   👉 Qonaq qalib (72.6%)
+   Gözlənilən qol: 1.07-2.8 | Ən ehtimallı skor: 1-2
+   O/U 2.5: 71.8%/25.7% | BTTS: 60.2%/37.4%
 
 ⚠️ Heç bir proqnoz 100% deyil. Məsuliyyətli oyna.
 ✅ 5 seçim Telegram-a göndərildi.
