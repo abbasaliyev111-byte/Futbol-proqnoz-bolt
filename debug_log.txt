@@ -1,21 +1,21 @@
 === Telegram test ===
 {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
 --- brasileirao (BSA) yoxlanılır ---
-[1/15] RB Bragantino vs EC Bahia analiz olundu
-[2/15] São Paulo FC vs CA Mineiro analiz olundu
-[3/15] Fluminense FC vs CR Vasco da Gama analiz olundu
-[4/15] Coritiba FBC vs Mirassol FC analiz olundu
-[5/15] Cruzeiro EC vs CA Paranaense analiz olundu
-[6/15] SC Internacional vs Santos FC analiz olundu
-[7/15] Clube do Remo vs CR Flamengo analiz olundu
-[8/15] Botafogo FR vs SE Palmeiras analiz olundu
-[9/15] SC Corinthians Paulista vs Chapecoense AF analiz olundu
-[10/15] EC Vitória vs Grêmio FBPA analiz olundu
-[11/15] EC Bahia vs Clube do Remo analiz olundu
-[12/15] Coritiba FBC vs CA Paranaense analiz olundu
-[13/15] CR Flamengo vs SC Corinthians Paulista analiz olundu
-[14/15] Mirassol FC vs EC Vitória analiz olundu
-[15/15] CA Mineiro vs Fluminense FC analiz olundu
+[1/15] Coritiba FBC vs Mirassol FC analiz olundu
+[2/15] Cruzeiro EC vs CA Paranaense analiz olundu
+[3/15] SC Internacional vs Santos FC analiz olundu
+[4/15] Clube do Remo vs CR Flamengo analiz olundu
+[5/15] Botafogo FR vs SE Palmeiras analiz olundu
+[6/15] SC Corinthians Paulista vs Chapecoense AF analiz olundu
+[7/15] EC Vitória vs Grêmio FBPA analiz olundu
+[8/15] EC Bahia vs Clube do Remo analiz olundu
+[9/15] Coritiba FBC vs CA Paranaense analiz olundu
+[10/15] CR Flamengo vs SC Corinthians Paulista analiz olundu
+[11/15] Mirassol FC vs EC Vitória analiz olundu
+[12/15] CA Mineiro vs Fluminense FC analiz olundu
+[13/15] Grêmio FBPA vs CR Vasco da Gama analiz olundu
+[14/15] Chapecoense AF vs SC Internacional analiz olundu
+[15/15] SE Palmeiras vs São Paulo FC analiz olundu
 MAX_TOTAL_MATCHES (15) limitinə çatdı, dayandırılır.
 📅 <b>Günün Top 5 Seçimi</b>
 <i>(Statistik modelin ən yüksək ehtimal verdiyi matçlar — zəmanət deyil, ehtimaldır)</i>
