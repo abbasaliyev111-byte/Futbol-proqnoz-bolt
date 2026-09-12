@@ -1,29 +1,29 @@
 === Telegram test ===
 {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
 --- brasileirao (BSA) yoxlanılır ---
-[1/15] Coritiba FBC vs CA Paranaense analiz olundu
-[2/15] CA Mineiro vs Fluminense FC analiz olundu
-[3/15] Grêmio FBPA vs CR Vasco da Gama analiz olundu
-[4/15] Chapecoense AF vs SC Internacional analiz olundu
-[5/15] SE Palmeiras vs São Paulo FC analiz olundu
-[6/15] Botafogo FR vs RB Bragantino analiz olundu
-[7/15] Santos FC vs Cruzeiro EC analiz olundu
-[8/15] Mirassol FC vs EC Vitória analiz olundu
-[9/15] CR Flamengo vs SC Corinthians Paulista analiz olundu
-[10/15] EC Bahia vs Clube do Remo analiz olundu
-[11/15] Botafogo FR vs Grêmio FBPA analiz olundu
-[12/15] CA Mineiro vs Chapecoense AF analiz olundu
-[13/15] Mirassol FC vs Botafogo FR analiz olundu
-[14/15] Clube do Remo vs Santos FC analiz olundu
-[15/15] CR Vasco da Gama vs Coritiba FBC analiz olundu
+[1/15] CA Mineiro vs Fluminense FC analiz olundu
+[2/15] Grêmio FBPA vs CR Vasco da Gama analiz olundu
+[3/15] Chapecoense AF vs SC Internacional analiz olundu
+[4/15] SE Palmeiras vs São Paulo FC analiz olundu
+[5/15] Botafogo FR vs RB Bragantino analiz olundu
+[6/15] Santos FC vs Cruzeiro EC analiz olundu
+[7/15] Mirassol FC vs EC Vitória analiz olundu
+[8/15] CR Flamengo vs SC Corinthians Paulista analiz olundu
+[9/15] EC Bahia vs Clube do Remo analiz olundu
+[10/15] Botafogo FR vs Grêmio FBPA analiz olundu
+[11/15] CA Mineiro vs Chapecoense AF analiz olundu
+[12/15] Mirassol FC vs Botafogo FR analiz olundu
+[13/15] Clube do Remo vs Santos FC analiz olundu
+[14/15] CR Vasco da Gama vs Coritiba FBC analiz olundu
+[15/15] São Paulo FC vs SC Internacional analiz olundu
 MAX_TOTAL_MATCHES (15) limitinə çatdı, dayandırılır.
 📅 <b>Günün Top 5 Seçimi</b>
 <i>(Statistik modelin ən yüksək ehtimal verdiyi matçlar — zəmanət deyil, ehtimaldır)</i>
 
 <b>1. CR Vasco da Gama vs Coritiba FBC</b> [brasileirao]
-   👉 Qonaq qalib (75.7%)
-   Gözlənilən qol: 0.86-2.7 | Ən ehtimallı skor: 0-2
-   O/U 2.5: 66.9%/31.0% | BTTS: 52.6%/45.4%
+   👉 Qonaq qalib (74.7%)
+   Gözlənilən qol: 1.1-3.0 | Ən ehtimallı skor: 1-2
+   O/U 2.5: 74.3%/22.3% | BTTS: 61.3%/35.4%
 
 <b>2. CR Flamengo vs SC Corinthians Paulista</b> [brasileirao]
    👉 Ev sahibi qalib (72.6%)
