@@ -1,34 +1,34 @@
 === Telegram test ===
 {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
 --- brasileirao (BSA) yoxlanılır ---
-[1/15] EC Bahia vs Clube do Remo analiz olundu
-[2/15] Botafogo FR vs Grêmio FBPA analiz olundu
-[3/15] CA Mineiro vs Chapecoense AF analiz olundu
-[4/15] Mirassol FC vs Botafogo FR analiz olundu
-[5/15] Clube do Remo vs Santos FC analiz olundu
-[6/15] CR Vasco da Gama vs Coritiba FBC analiz olundu
-[7/15] São Paulo FC vs SC Internacional analiz olundu
-[8/15] Grêmio FBPA vs SE Palmeiras analiz olundu
-[9/15] SC Corinthians Paulista vs Fluminense FC analiz olundu
-[10/15] EC Vitória vs Cruzeiro EC analiz olundu
-[11/15] CR Flamengo vs RB Bragantino analiz olundu
-[12/15] CA Paranaense vs EC Bahia analiz olundu
-[13/15] RB Bragantino vs Mirassol FC analiz olundu
-[14/15] SC Internacional vs SC Corinthians Paulista analiz olundu
-[15/15] Clube do Remo vs Grêmio FBPA analiz olundu
+[1/15] Botafogo FR vs Grêmio FBPA analiz olundu
+[2/15] CA Mineiro vs Chapecoense AF analiz olundu
+[3/15] Mirassol FC vs Botafogo FR analiz olundu
+[4/15] Clube do Remo vs Santos FC analiz olundu
+[5/15] CR Vasco da Gama vs Coritiba FBC analiz olundu
+[6/15] São Paulo FC vs SC Internacional analiz olundu
+[7/15] Grêmio FBPA vs SE Palmeiras analiz olundu
+[8/15] SC Corinthians Paulista vs Fluminense FC analiz olundu
+[9/15] EC Vitória vs Cruzeiro EC analiz olundu
+[10/15] CR Flamengo vs RB Bragantino analiz olundu
+[11/15] CA Paranaense vs EC Bahia analiz olundu
+[12/15] RB Bragantino vs Mirassol FC analiz olundu
+[13/15] SC Internacional vs SC Corinthians Paulista analiz olundu
+[14/15] Clube do Remo vs Grêmio FBPA analiz olundu
+[15/15] EC Vitória vs Chapecoense AF analiz olundu
 MAX_TOTAL_MATCHES (15) limitinə çatdı, dayandırılır.
 📅 <b>Günün Top 5 Seçimi</b>
 <i>(Statistik modelin ən yüksək ehtimal verdiyi matçlar — zəmanət deyil, ehtimaldır)</i>
 
-<b>1. CR Flamengo vs RB Bragantino</b> [brasileirao]
+<b>1. Clube do Remo vs Santos FC</b> [brasileirao]
+   👉 Qonaq qalib (84.2%)
+   Gözlənilən qol: 0.61-3.0 | Ən ehtimallı skor: 0-2
+   O/U 2.5: 66.6%/30.0% | BTTS: 42.0%/54.6%
+
+<b>2. CR Flamengo vs RB Bragantino</b> [brasileirao]
    👉 Ev sahibi qalib (83.2%)
    Gözlənilən qol: 2.15-0.2 | Ən ehtimallı skor: 2-0
    O/U 2.5: 41.0%/58.4% | BTTS: 15.9%/83.5%
-
-<b>2. Clube do Remo vs Santos FC</b> [brasileirao]
-   👉 Qonaq qalib (81.9%)
-   Gözlənilən qol: 0.74-3.0 | Ən ehtimallı skor: 0-2
-   O/U 2.5: 68.7%/27.9% | BTTS: 47.8%/48.9%
 
 <b>3. Grêmio FBPA vs SE Palmeiras</b> [brasileirao]
    👉 Qonaq qalib (81.8%)
@@ -40,10 +40,10 @@ MAX_TOTAL_MATCHES (15) limitinə çatdı, dayandırılır.
    Gözlənilən qol: 0.86-2.4 | Ən ehtimallı skor: 0-2
    O/U 2.5: 62.1%/36.8% | BTTS: 51.7%/47.1%
 
-<b>5. EC Bahia vs Clube do Remo</b> [brasileirao]
-   👉 Ev sahibi qalib (69.3%)
-   Gözlənilən qol: 3.04-1.4 | Ən ehtimallı skor: 3-1
-   O/U 2.5: 78.3%/18.1% | BTTS: 69.0%/27.4%
+<b>5. CA Paranaense vs EC Bahia</b> [brasileirao]
+   👉 Qonaq qalib (69.4%)
+   Gözlənilən qol: 2.7-5.2 | Ən ehtimallı skor: 2-5
+   O/U 2.5: 70.2%/1.5% | BTTS: 66.3%/5.4%
 
 ⚠️ Heç bir proqnoz 100% deyil. Məsuliyyətli oyna.
 ⚠️ Telegram-a göndərilmədi.
