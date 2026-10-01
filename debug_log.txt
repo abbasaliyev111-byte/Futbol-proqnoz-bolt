@@ -3,22 +3,19 @@
 --- brasileirao (BSA) yoxlanılır ---
 [1/15] São Paulo FC vs Santos FC analiz olundu
 [2/15] CA Mineiro vs RB Bragantino analiz olundu
-Statistika xətası (RB Bragantino vs Mirassol FC): 500 Server Error:  for url: https://api.football-data.org/v4/teams/4364/matches?status=FINISHED&limit=5
-Statistika xətası (SC Internacional vs SC Corinthians Paulista): 500 Server Error:  for url: https://api.football-data.org/v4/teams/6684/matches?status=FINISHED&limit=5
-[3/15] Clube do Remo vs Grêmio FBPA analiz olundu
-[4/15] EC Vitória vs Chapecoense AF analiz olundu
-[5/15] Botafogo FR vs CR Vasco da Gama analiz olundu
-[6/15] Cruzeiro EC vs São Paulo FC analiz olundu
-[7/15] Santos FC vs CR Flamengo analiz olundu
-[8/15] CA Paranaense vs CA Mineiro analiz olundu
-[9/15] Fluminense FC vs Coritiba FBC analiz olundu
-[10/15] SE Palmeiras vs EC Bahia analiz olundu
-[11/15] CR Vasco da Gama vs Clube do Remo analiz olundu
-[12/15] São Paulo FC vs EC Vitória analiz olundu
-[13/15] CA Mineiro vs Santos FC analiz olundu
-Statistika xətası (CR Flamengo vs Fluminense FC): 500 Server Error:  for url: https://api.football-data.org/v4/teams/1783/matches?status=FINISHED&limit=5
-[14/15] Grêmio FBPA vs SC Internacional analiz olundu
-[15/15] SE Palmeiras vs SC Corinthians Paulista analiz olundu
+[3/15] RB Bragantino vs Mirassol FC analiz olundu
+[4/15] SC Internacional vs SC Corinthians Paulista analiz olundu
+[5/15] Clube do Remo vs Grêmio FBPA analiz olundu
+[6/15] EC Vitória vs Chapecoense AF analiz olundu
+[7/15] Botafogo FR vs CR Vasco da Gama analiz olundu
+[8/15] Cruzeiro EC vs São Paulo FC analiz olundu
+[9/15] Santos FC vs CR Flamengo analiz olundu
+[10/15] CA Paranaense vs CA Mineiro analiz olundu
+[11/15] Fluminense FC vs Coritiba FBC analiz olundu
+[12/15] SE Palmeiras vs EC Bahia analiz olundu
+[13/15] CR Vasco da Gama vs Clube do Remo analiz olundu
+[14/15] São Paulo FC vs EC Vitória analiz olundu
+[15/15] CA Mineiro vs Santos FC analiz olundu
 MAX_TOTAL_MATCHES (15) limitinə çatdı, dayandırılır.
 📅 <b>Günün Top 5 Seçimi</b>
 <i>(Statistik modelin ən yüksək ehtimal verdiyi matçlar — zəmanət deyil, ehtimaldır)</i>
@@ -33,20 +30,20 @@ MAX_TOTAL_MATCHES (15) limitinə çatdı, dayandırılır.
    Gözlənilən qol: 3.37-1.17 | Ən ehtimallı skor: 3-1
    O/U 2.5: 77.5%/16.9% | BTTS: 62.6%/31.8%
 
-<b>3. SE Palmeiras vs SC Corinthians Paulista</b> [brasileirao]
-   👉 Ev sahibi qalib (73.8%)
-   Gözlənilən qol: 2.48-0.8 | Ən ehtimallı skor: 2-0
-   O/U 2.5: 62.4%/36.3% | BTTS: 49.7%/48.9%
-
-<b>4. Fluminense FC vs Coritiba FBC</b> [brasileirao]
+<b>3. Fluminense FC vs Coritiba FBC</b> [brasileirao]
    👉 Ev sahibi qalib (63.8%)
    Gözlənilən qol: 3.19-1.8 | Ən ehtimallı skor: 3-1
    O/U 2.5: 82.8%/12.6% | BTTS: 76.1%/19.2%
 
-<b>5. Clube do Remo vs Grêmio FBPA</b> [brasileirao]
+<b>4. Clube do Remo vs Grêmio FBPA</b> [brasileirao]
    👉 Qonaq qalib (58.7%)
    Gözlənilən qol: 1.07-2.0 | Ən ehtimallı skor: 1-1
    O/U 2.5: 58.8%/40.7% | BTTS: 56.6%/42.9%
+
+<b>5. RB Bragantino vs Mirassol FC</b> [brasileirao]
+   👉 Qonaq qalib (55.1%)
+   Gözlənilən qol: 1.1-1.87 | Ən ehtimallı skor: 1-1
+   O/U 2.5: 56.7%/43.0% | BTTS: 56.3%/43.4%
 
 ⚠️ Heç bir proqnoz 100% deyil. Məsuliyyətli oyna.
 ⚠️ Telegram-a göndərilmədi.
