@@ -1,21 +1,21 @@
 === Telegram test ===
 {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
 --- brasileirao (BSA) yoxlanılır ---
-[1/15] São Paulo FC vs Santos FC analiz olundu
-[2/15] CA Mineiro vs RB Bragantino analiz olundu
-[3/15] RB Bragantino vs Mirassol FC analiz olundu
-[4/15] SC Internacional vs SC Corinthians Paulista analiz olundu
-[5/15] Clube do Remo vs Grêmio FBPA analiz olundu
-[6/15] EC Vitória vs Chapecoense AF analiz olundu
-[7/15] Botafogo FR vs CR Vasco da Gama analiz olundu
-[8/15] Cruzeiro EC vs São Paulo FC analiz olundu
-[9/15] Santos FC vs CR Flamengo analiz olundu
-[10/15] CA Paranaense vs CA Mineiro analiz olundu
-[11/15] Fluminense FC vs Coritiba FBC analiz olundu
-[12/15] SE Palmeiras vs EC Bahia analiz olundu
-[13/15] CR Vasco da Gama vs Clube do Remo analiz olundu
-[14/15] São Paulo FC vs EC Vitória analiz olundu
-[15/15] CA Mineiro vs Santos FC analiz olundu
+[1/15] CA Mineiro vs RB Bragantino analiz olundu
+[2/15] RB Bragantino vs Mirassol FC analiz olundu
+[3/15] SC Internacional vs SC Corinthians Paulista analiz olundu
+[4/15] Clube do Remo vs Grêmio FBPA analiz olundu
+[5/15] EC Vitória vs Chapecoense AF analiz olundu
+[6/15] Botafogo FR vs CR Vasco da Gama analiz olundu
+[7/15] Cruzeiro EC vs São Paulo FC analiz olundu
+[8/15] Santos FC vs CR Flamengo analiz olundu
+[9/15] CA Paranaense vs CA Mineiro analiz olundu
+[10/15] Fluminense FC vs Coritiba FBC analiz olundu
+[11/15] SE Palmeiras vs EC Bahia analiz olundu
+[12/15] CR Vasco da Gama vs Clube do Remo analiz olundu
+[13/15] São Paulo FC vs EC Vitória analiz olundu
+[14/15] CA Mineiro vs Santos FC analiz olundu
+[15/15] CR Flamengo vs Fluminense FC analiz olundu
 MAX_TOTAL_MATCHES (15) limitinə çatdı, dayandırılır.
 📅 <b>Günün Top 5 Seçimi</b>
 <i>(Statistik modelin ən yüksək ehtimal verdiyi matçlar — zəmanət deyil, ehtimaldır)</i>
@@ -40,10 +40,10 @@ MAX_TOTAL_MATCHES (15) limitinə çatdı, dayandırılır.
    Gözlənilən qol: 1.07-2.0 | Ən ehtimallı skor: 1-1
    O/U 2.5: 58.8%/40.7% | BTTS: 56.6%/42.9%
 
-<b>5. RB Bragantino vs Mirassol FC</b> [brasileirao]
-   👉 Qonaq qalib (55.1%)
-   Gözlənilən qol: 1.1-1.87 | Ən ehtimallı skor: 1-1
-   O/U 2.5: 56.7%/43.0% | BTTS: 56.3%/43.4%
+<b>5. São Paulo FC vs EC Vitória</b> [brasileirao]
+   👉 Ev sahibi qalib (56.8%)
+   Gözlənilən qol: 1.66-0.83 | Ən ehtimallı skor: 1-0
+   O/U 2.5: 45.2%/54.7% | BTTS: 45.7%/54.2%
 
 ⚠️ Heç bir proqnoz 100% deyil. Məsuliyyətli oyna.
 ⚠️ Telegram-a göndərilmədi.
