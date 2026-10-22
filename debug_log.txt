@@ -20,30 +20,30 @@ MAX_TOTAL_MATCHES (15) limitinə çatdı, dayandırılır.
 📅 <b>Günün Top 5 Seçimi</b>
 <i>(Statistik modelin ən yüksək ehtimal verdiyi matçlar — zəmanət deyil, ehtimaldır)</i>
 
-<b>1. Chapecoense AF vs Fluminense FC</b> [brasileirao]
-   👉 Qonaq qalib (90.0%)
-   Gözlənilən qol: 0.55-3.6 | Ən ehtimallı skor: 0-3
-   O/U 2.5: 71.0%/21.7% | BTTS: 38.2%/54.5%
-
-<b>2. CR Vasco da Gama vs SC Corinthians Paulista</b> [brasileirao]
+<b>1. CR Vasco da Gama vs SC Corinthians Paulista</b> [brasileirao]
    👉 Ev sahibi qalib (88.4%)
    Gözlənilən qol: 3.04-0.4 | Ən ehtimallı skor: 3-0
    O/U 2.5: 63.2%/33.3% | BTTS: 30.2%/66.2%
+
+<b>2. Chapecoense AF vs Fluminense FC</b> [brasileirao]
+   👉 Qonaq qalib (87.3%)
+   Gözlənilən qol: 0.92-4.0 | Ən ehtimallı skor: 0-3
+   O/U 2.5: 75.8%/13.2% | BTTS: 52.4%/36.5%
 
 <b>3. RB Bragantino vs Chapecoense AF</b> [brasileirao]
    👉 Ev sahibi qalib (77.4%)
    Gözlənilən qol: 2.58-0.7 | Ən ehtimallı skor: 2-0
    O/U 2.5: 61.9%/36.4% | BTTS: 45.7%/52.7%
 
-<b>4. Santos FC vs SE Palmeiras</b> [brasileirao]
-   👉 Qonaq qalib (73.4%)
-   Gözlənilən qol: 0.55-2.1 | Ən ehtimallı skor: 0-2
-   O/U 2.5: 48.9%/50.5% | BTTS: 37.0%/62.4%
+<b>4. Coritiba FBC vs Grêmio FBPA</b> [brasileirao]
+   👉 Qonaq qalib (72.0%)
+   Gözlənilən qol: 1.1-2.8 | Ən ehtimallı skor: 1-2
+   O/U 2.5: 72.3%/25.3% | BTTS: 61.1%/36.4%
 
 <b>5. SE Palmeiras vs RB Bragantino</b> [brasileirao]
-   👉 Ev sahibi qalib (72.6%)
-   Gözlənilən qol: 1.93-0.47 | Ən ehtimallı skor: 1-0
-   O/U 2.5: 42.6%/57.0% | BTTS: 31.7%/67.9%
+   👉 Ev sahibi qalib (68.9%)
+   Gözlənilən qol: 3.01-1.4 | Ən ehtimallı skor: 3-1
+   O/U 2.5: 78.1%/18.5% | BTTS: 69.0%/27.6%
 
 ⚠️ Heç bir proqnoz 100% deyil. Məsuliyyətli oyna.
 ⚠️ Telegram-a göndərilmədi.
