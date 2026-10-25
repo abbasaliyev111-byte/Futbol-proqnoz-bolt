@@ -1,49 +1,49 @@
 === Telegram test ===
 {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
 --- brasileirao (BSA) yoxlanılır ---
-[1/15] SC Internacional vs Botafogo FR analiz olundu
-[2/15] Mirassol FC vs São Paulo FC analiz olundu
-[3/15] EC Vitória vs CA Paranaense analiz olundu
-[4/15] SE Palmeiras vs RB Bragantino analiz olundu
-[5/15] CR Vasco da Gama vs SC Corinthians Paulista analiz olundu
-[6/15] Chapecoense AF vs Fluminense FC analiz olundu
-[7/15] Santos FC vs EC Bahia analiz olundu
-[8/15] Coritiba FBC vs Grêmio FBPA analiz olundu
-[9/15] CR Flamengo vs CA Mineiro analiz olundu
-[10/15] RB Bragantino vs Chapecoense AF analiz olundu
-[11/15] Fluminense FC vs SC Internacional analiz olundu
-[12/15] Santos FC vs SE Palmeiras analiz olundu
-[13/15] EC Bahia vs São Paulo FC analiz olundu
-[14/15] Clube do Remo vs Botafogo FR analiz olundu
-[15/15] CA Mineiro vs Cruzeiro EC analiz olundu
+[1/15] Coritiba FBC vs Grêmio FBPA analiz olundu
+[2/15] CR Flamengo vs CA Mineiro analiz olundu
+[3/15] RB Bragantino vs Chapecoense AF analiz olundu
+[4/15] Fluminense FC vs SC Internacional analiz olundu
+[5/15] Santos FC vs SE Palmeiras analiz olundu
+[6/15] EC Bahia vs São Paulo FC analiz olundu
+[7/15] Clube do Remo vs Botafogo FR analiz olundu
+[8/15] CA Mineiro vs Cruzeiro EC analiz olundu
+[9/15] CR Vasco da Gama vs CR Flamengo analiz olundu
+[10/15] Grêmio FBPA vs CA Paranaense analiz olundu
+[11/15] SC Corinthians Paulista vs Mirassol FC analiz olundu
+[12/15] Coritiba FBC vs EC Vitória analiz olundu
+[13/15] RB Bragantino vs Santos FC analiz olundu
+[14/15] Chapecoense AF vs Mirassol FC analiz olundu
+[15/15] SC Internacional vs Coritiba FBC analiz olundu
 MAX_TOTAL_MATCHES (15) limitinə çatdı, dayandırılır.
 📅 <b>Günün Top 5 Seçimi</b>
 <i>(Statistik modelin ən yüksək ehtimal verdiyi matçlar — zəmanət deyil, ehtimaldır)</i>
 
-<b>1. CR Vasco da Gama vs SC Corinthians Paulista</b> [brasileirao]
-   👉 Ev sahibi qalib (88.4%)
-   Gözlənilən qol: 3.04-0.4 | Ən ehtimallı skor: 3-0
-   O/U 2.5: 63.2%/33.3% | BTTS: 30.2%/66.2%
+<b>1. Coritiba FBC vs EC Vitória</b> [brasileirao]
+   👉 Qonaq qalib (86.4%)
+   Gözlənilən qol: 0.86-3.73 | Ən ehtimallı skor: 0-3
+   O/U 2.5: 75.2%/16.3% | BTTS: 51.4%/40.2%
 
-<b>2. Chapecoense AF vs Fluminense FC</b> [brasileirao]
-   👉 Qonaq qalib (87.3%)
-   Gözlənilən qol: 0.92-4.0 | Ən ehtimallı skor: 0-3
-   O/U 2.5: 75.8%/13.2% | BTTS: 52.4%/36.5%
+<b>2. SC Corinthians Paulista vs Mirassol FC</b> [brasileirao]
+   👉 Qonaq qalib (80.9%)
+   Gözlənilən qol: 0.55-2.6 | Ən ehtimallı skor: 0-2
+   O/U 2.5: 59.3%/39.0% | BTTS: 38.5%/59.7%
 
-<b>3. RB Bragantino vs Chapecoense AF</b> [brasileirao]
-   👉 Ev sahibi qalib (77.4%)
-   Gözlənilən qol: 2.58-0.7 | Ən ehtimallı skor: 2-0
-   O/U 2.5: 61.9%/36.4% | BTTS: 45.7%/52.7%
+<b>3. Chapecoense AF vs Mirassol FC</b> [brasileirao]
+   👉 Qonaq qalib (79.7%)
+   Gözlənilən qol: 0.37-2.2 | Ən ehtimallı skor: 0-2
+   O/U 2.5: 46.6%/52.6% | BTTS: 27.1%/72.1%
 
-<b>4. Coritiba FBC vs Grêmio FBPA</b> [brasileirao]
-   👉 Qonaq qalib (72.0%)
-   Gözlənilən qol: 1.1-2.8 | Ən ehtimallı skor: 1-2
-   O/U 2.5: 72.3%/25.3% | BTTS: 61.1%/36.4%
+<b>4. SC Internacional vs Coritiba FBC</b> [brasileirao]
+   👉 Ev sahibi qalib (78.1%)
+   Gözlənilən qol: 2.58-0.67 | Ən ehtimallı skor: 2-0
+   O/U 2.5: 61.3%/37.1% | BTTS: 44.2%/54.2%
 
-<b>5. SE Palmeiras vs RB Bragantino</b> [brasileirao]
-   👉 Ev sahibi qalib (68.9%)
-   Gözlənilən qol: 3.01-1.4 | Ən ehtimallı skor: 3-1
-   O/U 2.5: 78.1%/18.5% | BTTS: 69.0%/27.6%
+<b>5. Santos FC vs SE Palmeiras</b> [brasileirao]
+   👉 Qonaq qalib (73.8%)
+   Gözlənilən qol: 1.47-3.5 | Ən ehtimallı skor: 1-3
+   O/U 2.5: 80.7%/12.7% | BTTS: 69.6%/23.8%
 
 ⚠️ Heç bir proqnoz 100% deyil. Məsuliyyətli oyna.
 ⚠️ Telegram-a göndərilmədi.
