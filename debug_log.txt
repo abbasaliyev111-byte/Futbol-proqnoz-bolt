@@ -1,29 +1,29 @@
 === Telegram test ===
 {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
 --- brasileirao (BSA) yoxlanılır ---
-[1/15] Chapecoense AF vs SE Palmeiras analiz olundu
-[2/15] CA Mineiro vs SC Corinthians Paulista analiz olundu
-[3/15] São Paulo FC vs Clube do Remo analiz olundu
-[4/15] Fluminense FC vs Cruzeiro EC analiz olundu
-[5/15] Botafogo FR vs EC Bahia analiz olundu
-[6/15] Coritiba FBC vs CR Flamengo analiz olundu
-[7/15] EC Vitória vs Santos FC analiz olundu
-[8/15] SC Corinthians Paulista vs Grêmio FBPA analiz olundu
-[9/15] SC Internacional vs RB Bragantino analiz olundu
-[10/15] Mirassol FC vs CA Paranaense analiz olundu
-[11/15] CA Mineiro vs CR Vasco da Gama analiz olundu
-[12/15] CA Paranaense vs São Paulo FC analiz olundu
-[13/15] EC Bahia vs CA Mineiro analiz olundu
-[14/15] RB Bragantino vs Fluminense FC analiz olundu
-[15/15] Cruzeiro EC vs SC Internacional analiz olundu
+[1/15] CA Mineiro vs SC Corinthians Paulista analiz olundu
+[2/15] São Paulo FC vs Clube do Remo analiz olundu
+[3/15] Fluminense FC vs Cruzeiro EC analiz olundu
+[4/15] Botafogo FR vs EC Bahia analiz olundu
+[5/15] Coritiba FBC vs CR Flamengo analiz olundu
+[6/15] EC Vitória vs Santos FC analiz olundu
+[7/15] SC Corinthians Paulista vs Grêmio FBPA analiz olundu
+[8/15] SC Internacional vs RB Bragantino analiz olundu
+[9/15] Mirassol FC vs CA Paranaense analiz olundu
+[10/15] CA Mineiro vs CR Vasco da Gama analiz olundu
+[11/15] CA Paranaense vs São Paulo FC analiz olundu
+[12/15] EC Bahia vs CA Mineiro analiz olundu
+[13/15] RB Bragantino vs Fluminense FC analiz olundu
+[14/15] Cruzeiro EC vs SC Internacional analiz olundu
+[15/15] CR Flamengo vs Chapecoense AF analiz olundu
 MAX_TOTAL_MATCHES (15) limitinə çatdı, dayandırılır.
 📅 <b>Günün Top 5 Seçimi</b>
 <i>(Statistik modelin ən yüksək ehtimal verdiyi matçlar — zəmanət deyil, ehtimaldır)</i>
 
-<b>1. Chapecoense AF vs SE Palmeiras</b> [brasileirao]
-   👉 Qonaq qalib (94.5%)
-   Gözlənilən qol: 0.25-3.67 | Ən ehtimallı skor: 0-3
-   O/U 2.5: 67.0%/25.1% | BTTS: 19.5%/72.6%
+<b>1. CR Flamengo vs Chapecoense AF</b> [brasileirao]
+   👉 Ev sahibi qalib (78.9%)
+   Gözlənilən qol: 3.19-1.0 | Ən ehtimallı skor: 3-0
+   O/U 2.5: 74.4%/21.2% | BTTS: 57.8%/37.8%
 
 <b>2. Botafogo FR vs EC Bahia</b> [brasileirao]
    👉 Qonaq qalib (69.2%)
